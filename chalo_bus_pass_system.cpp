@@ -20,7 +20,6 @@ private:
 public:
     User();
 
-
     int   getUserID();
     char* getName();
     int   getAge();
@@ -53,7 +52,7 @@ public:
     void setPassToFile(char* filename);
 };
 
-User::User()
+User:: User()
 {
     userID    = 0;
     age       = 0;
@@ -93,8 +92,6 @@ int User::getTripsUsed()
 {
     return tripsUsed;
 }
-
-
 void User::setUserID(int id)
 {
     userID = id;
